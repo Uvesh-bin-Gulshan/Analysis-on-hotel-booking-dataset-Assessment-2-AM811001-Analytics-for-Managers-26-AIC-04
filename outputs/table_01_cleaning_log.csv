@@ -1,0 +1,7 @@
+Step,Rows,Removed
+Raw rows,119390,0
+After removing zero-guest bookings,87230,32160
+After removing zero-night stays,86639,591
+After removing exact duplicates,86637,2
+After removing undefined meal,86152,485
+After removing undefined segment / channel,86147,5
