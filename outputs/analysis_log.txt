@@ -1,0 +1,183 @@
+
+== 2. DESCRIPTIVE ANALYTICS ==
+== 1. DATA CLEANING==
+Raw rows/cols:(119390, 32)
+Raw cancellation rate: 0.370
+                                      Step   Rows  Removed
+                                  Raw rows 119390        0
+        After removing zero-guest bookings  87230    32160
+           After removing zero-night stays  86639      591
+           After removing exact duplicates  86637        2
+             After removing undefined meal  86152      485
+After removing undefined segment / channel  86147        5
+Cleaned cancellation rate: 0.277
+ADR==0 rows kept for Problem 1, excluded from Problem 2:1029
+Clean analysis file:86147rows,20columns
+== 1. DATA CLEANING==
+Raw rows/cols:(119390, 32)
+Raw cancellation rate: 0.370
+                                      Step   Rows  Removed
+                                  Raw rows 119390        0
+        After removing zero-guest bookings  87230    32160
+           After removing zero-night stays  86639      591
+           After removing exact duplicates  86637        2
+             After removing undefined meal  86152      485
+After removing undefined segment / channel  86147        5
+Cleaned cancellation rate: 0.277
+ADR==0 rows kept for Problem 1, excluded from Problem 2:1029
+Clean analysis file:86147rows,20columns
+
+== 2. DESCRIPTIVE ANALYTICS ==
+
+== 2. DESCRIPTIVE ANALYTICS ==
+
+== 2. DESCRIPTIVE ANALYTICS ==
+
+== 2. DESCRIPTIVE ANALYTICS ==
+                             mean    std  min   25%   50%     75%    max
+lead_time                   80.24  86.10  0.0  12.0  50.0  125.00  709.0
+stays_in_weekend_nights      1.01   1.03  0.0   0.0   1.0    2.00   19.0
+stays_in_week_nights         2.63   2.03  0.0   1.0   2.0    4.00   50.0
+adults                       1.88   0.62  0.0   2.0   2.0    2.00   55.0
+children                     0.14   0.46  0.0   0.0   0.0    0.00   10.0
+babies                       0.01   0.11  0.0   0.0   0.0    0.00   10.0
+previous_cancellations       0.03   0.37  0.0   0.0   0.0    0.00   26.0
+total_of_special_requests    0.70   0.83  0.0   0.0   1.0    1.00    5.0
+adr                        107.19  51.18  0.0  73.0  99.0  134.35  510.0
+
+== 2. DESCRIPTIVE ANALYTICS ==
+                             mean    std  min   25%   50%     75%    max
+lead_time                   80.24  86.10  0.0  12.0  50.0  125.00  709.0
+stays_in_weekend_nights      1.01   1.03  0.0   0.0   1.0    2.00   19.0
+stays_in_week_nights         2.63   2.03  0.0   1.0   2.0    4.00   50.0
+adults                       1.88   0.62  0.0   2.0   2.0    2.00   55.0
+children                     0.14   0.46  0.0   0.0   0.0    0.00   10.0
+babies                       0.01   0.11  0.0   0.0   0.0    0.00   10.0
+previous_cancellations       0.03   0.37  0.0   0.0   0.0    0.00   26.0
+total_of_special_requests    0.70   0.83  0.0   0.0   1.0    1.00    5.0
+adr                        107.19  51.18  0.0  73.0  99.0  134.35  510.0
+
+== 2. DESCRIPTIVE ANALYTICS ==
+                             mean    std  min   25%   50%     75%    max
+lead_time                   80.24  86.10  0.0  12.0  50.0  125.00  709.0
+stays_in_weekend_nights      1.01   1.03  0.0   0.0   1.0    2.00   19.0
+stays_in_week_nights         2.63   2.03  0.0   1.0   2.0    4.00   50.0
+adults                       1.88   0.62  0.0   2.0   2.0    2.00   55.0
+children                     0.14   0.46  0.0   0.0   0.0    0.00   10.0
+babies                       0.01   0.11  0.0   0.0   0.0    0.00   10.0
+previous_cancellations       0.03   0.37  0.0   0.0   0.0    0.00   26.0
+total_of_special_requests    0.70   0.83  0.0   0.0   1.0    1.00    5.0
+adr                        107.19  51.18  0.0  73.0  99.0  134.35  510.0
+
+== 2. DESCRIPTIVE ANALYTICS ==
+                             mean    std  min   25%   50%     75%    max
+lead_time                   80.24  86.10  0.0  12.0  50.0  125.00  709.0
+stays_in_weekend_nights      1.01   1.03  0.0   0.0   1.0    2.00   19.0
+stays_in_week_nights         2.63   2.03  0.0   1.0   2.0    4.00   50.0
+adults                       1.88   0.62  0.0   2.0   2.0    2.00   55.0
+children                     0.14   0.46  0.0   0.0   0.0    0.00   10.0
+babies                       0.01   0.11  0.0   0.0   0.0    0.00   10.0
+previous_cancellations       0.03   0.37  0.0   0.0   0.0    0.00   26.0
+total_of_special_requests    0.70   0.83  0.0   0.0   1.0    1.00    5.0
+adr                        107.19  51.18  0.0  73.0  99.0  134.35  510.0
+
+Cancellation rate byhotel
+              Bookings  Cancel_rate
+hotel                              
+City Hotel       53038        0.302
+Resort Hotel     33109        0.238
+
+Cancellation rate bymarket_segment
+                Bookings  Cancel_rate
+market_segment                       
+Aviation             222        0.198
+Complementary        676        0.120
+Corporate           4150        0.122
+Direct             11578        0.148
+Groups              4669        0.277
+Offline TA/TO      13584        0.150
+Online TA          51268        0.355
+
+Cancellation rate bydeposit_type
+              Bookings  Cancel_rate
+deposit_type                       
+No Deposit       85010        0.269
+Non Refund        1030        0.947
+Refundable         107        0.243
+
+Cancellation rate bycustomer_type
+                 Bookings  Cancel_rate
+customer_type                         
+Contract             3105        0.165
+Group                 534        0.099
+Transient           71148        0.304
+Transient-Party     11360        0.153
+
+Cancellation rate bydistribution_channel
+                      Bookings  Cancel_rate
+distribution_channel                       
+Corporate                 4986        0.128
+Direct                   12654        0.149
+GDS                        178        0.202
+TA/TO                    68329        0.312
+
+Cancellation rate bymeal
+      Bookings  Cancel_rate
+meal                       
+BB       67413        0.267
+FB         359        0.276
+HB        9029        0.271
+SC        9346        0.357
+
+Cancellation rate byarrival_date_year
+                   Bookings  Cancel_rate
+arrival_date_year                       
+2015                  13088        0.206
+2016                  41749        0.267
+2017                  31310        0.321
+
+== 2. DESCRIPTIVE ANALYTICS ==
+                             mean    std  min   25%   50%     75%    max
+lead_time                   80.24  86.10  0.0  12.0  50.0  125.00  709.0
+stays_in_weekend_nights      1.01   1.03  0.0   0.0   1.0    2.00   19.0
+stays_in_week_nights         2.63   2.03  0.0   1.0   2.0    4.00   50.0
+adults                       1.88   0.62  0.0   2.0   2.0    2.00   55.0
+children                     0.14   0.46  0.0   0.0   0.0    0.00   10.0
+babies                       0.01   0.11  0.0   0.0   0.0    0.00   10.0
+previous_cancellations       0.03   0.37  0.0   0.0   0.0    0.00   26.0
+total_of_special_requests    0.70   0.83  0.0   0.0   1.0    1.00    5.0
+adr                        107.19  51.18  0.0  73.0  99.0  134.35  510.0
+
+Cancellation rate byhotel
+              Bookings  Cancel_rate
+hotel                              
+City Hotel       53038        0.302
+Resort Hotel     33109        0.238
+
+Cancellation rate bymarket_segment
+                Bookings  Cancel_rate
+market_segment                       
+Aviation             222        0.198
+Complementary        676        0.120
+Corporate           4150        0.122
+Direct             11578        0.148
+Groups              4669        0.277
+Offline TA/TO      13584        0.150
+Online TA          51268        0.355
+
+Cancellation rate bydeposit_type
+              Bookings  Cancel_rate
+deposit_type                       
+No Deposit       85010        0.269
+Non Refund        1030        0.947
+Refundable         107        0.243
+
+Cancellation rate bycustomer_type
+                 Bookings  Cancel_rate
+customer_type                         
+Contract             3105        0.165
+Group                 534        0.099
+Transient           71148        0.304
+Transient-Party     11360        0.153
+
+Cancellation rate bydistribution_channel
