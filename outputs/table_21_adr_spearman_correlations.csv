@@ -1,0 +1,8 @@
+Variable,Spearman_rho_with_ADR,p_value
+adults,0.328,0.0
+children,0.289,0.0
+total_of_special_requests,0.163,0.0
+lead_time,0.082,2.937272092438692e-127
+previous_cancellations,-0.078,7.148540915453539e-116
+total_nights,0.064,3.047121293421594e-77
+babies,0.023,4.465924459544604e-11

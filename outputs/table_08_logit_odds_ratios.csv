@@ -1,0 +1,21 @@
+,Odds_ratio,CI_low,CI_high,p_value
+deposit_type_Non Refund,49.847,37.503,66.255,0.0
+previous_cancellations,2.561,2.348,2.793,0.0
+market_segment_Online TA,1.905,1.352,2.684,0.0
+customer_type_Transient,1.844,1.658,2.051,0.0
+deposit_type_Refundable,1.488,0.926,2.391,0.1
+children,1.204,1.164,1.244,0.0
+adults,1.156,1.117,1.195,0.0
+babies,1.097,0.936,1.285,0.254
+total_nights,1.058,1.051,1.064,0.0
+lead_time,1.005,1.005,1.005,0.0
+customer_type_Transient-Party,0.837,0.74,0.947,0.005
+hotel_Resort Hotel,0.816,0.787,0.846,0.0
+customer_type_Group,0.802,0.569,1.131,0.209
+market_segment_Complementary,0.732,0.481,1.112,0.144
+market_segment_Corporate,0.625,0.438,0.892,0.01
+market_segment_Groups,0.622,0.435,0.889,0.009
+market_segment_Direct,0.574,0.406,0.811,0.002
+total_of_special_requests,0.509,0.498,0.522,0.0
+market_segment_Offline TA/TO,0.369,0.261,0.522,0.0
+is_repeated_guest,0.284,0.238,0.34,0.0
