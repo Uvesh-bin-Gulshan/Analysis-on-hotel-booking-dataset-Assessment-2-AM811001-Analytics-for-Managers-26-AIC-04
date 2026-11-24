@@ -1,0 +1,10 @@
+Variable,Chi-square,df,p-value,Cramers_V
+market_segment,4215.3,6,0.0,0.221
+deposit_type,2329.1,2,0.0,0.164
+distribution_channel,2014.0,3,0.0,0.153
+customer_type,1401.5,3,1.3752773698830656e-303,0.128
+is_repeated_guest,617.5,1,2.6791094265420255e-136,0.085
+arrival_date_month,618.9,11,1.2936999509141084e-125,0.085
+hotel,415.3,1,2.6142255511451504e-92,0.069
+meal,328.8,3,5.826141479036279e-71,0.062
+reserved_room_type,275.4,8,6.858550342534741e-55,0.057

@@ -1,0 +1,5 @@
+customer_type,Bookings,Mean,Median,Std
+Transient,70395,112.1,103.8,51.2
+Contract,3101,93.3,91.0,34.2
+Transient-Party,11114,90.7,84.0,41.5
+Group,508,89.6,77.8,47.9

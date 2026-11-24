@@ -1,0 +1,8 @@
+market_segment,Bookings,Mean,Median,Std
+Online TA,51228,119.0,111.2,48.8
+Direct,11498,118.3,108.0,57.9
+Aviation,222,102.4,95.0,14.7
+Offline TA/TO,13464,82.7,80.0,35.0
+Groups,4513,78.1,70.0,35.2
+Corporate,4131,69.3,65.0,31.8
+Complementary,62,34.5,20.0,35.9

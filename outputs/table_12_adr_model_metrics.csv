@@ -1,0 +1,4 @@
+Model,R2,Adjusted_R2,RMSE,MAE
+Baseline (train mean),-0.12,,57.258,42.139
+Linear regression,0.382,0.381,42.536,30.418
+Random forest regressor,0.669,0.669,31.103,22.646
